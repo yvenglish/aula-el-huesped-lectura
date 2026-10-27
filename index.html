@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#210E16">
+  <title>El huésped de la habitación cerrada | YV Español</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="YV Español">
+      <img src="assets/logobranca.png" alt="YV Español">
+      <span>YV Español <small>Language Club</small></span>
+    </a>
+    <a class="nav-link" href="#preguntas">Comprensión</a>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">Lectura · Repaso general</span>
+        <h1>El huésped de la <em>habitación cerrada</em></h1>
+        <p>Una casa antigua, un desconocido y una reunión que puede cambiarlo todo.</p>
+      </div>
+      <div class="student-card">
+        <label>Nombre<input id="student-name" type="text" name="nombre" form="lesson-form" placeholder="Escribe tu nombre" required></label>
+        <label>Fecha<input id="lesson-date" type="date" name="fecha" form="lesson-form" required></label>
+      </div>
+    </section>
+
+    <section class="audio-panel" aria-labelledby="audio-title">
+      <div>
+        <span class="section-number">01</span>
+        <h2 id="audio-title">Escucha la historia</h2>
+        <p>La página prioriza una voz de España (<strong>es-ES</strong>) disponible en tu navegador.</p>
+      </div>
+      <div class="audio-controls">
+        <button id="play-all" class="primary" type="button">▶ Leer todo</button>
+        <button id="pause" type="button">⏸ Pausar</button>
+        <button id="stop" type="button">■ Reiniciar</button>
+        <label class="speed">Velocidad
+          <select id="speech-rate">
+            <option value="0.75">0,75×</option>
+            <option value="0.9" selected>0,90×</option>
+            <option value="1">1×</option>
+            <option value="1.15">1,15×</option>
+          </select>
+        </label>
+      </div>
+      <p id="voice-status" class="status" role="status">Buscando una voz en español…</p>
+    </section>
+
+    <section class="reading" aria-labelledby="reading-title">
+      <div class="section-heading">
+        <span class="section-number">02</span>
+        <div><h2 id="reading-title">Lee y escucha</h2><p>Puedes escuchar la historia completa o cada parte por separado.</p></div>
+      </div>
+
+      <article class="chapter" data-chapter>
+        <div class="chapter-label"><span>AYER</span><button class="listen-part" type="button" aria-label="Escuchar Ayer">🔊 Escuchar</button></div>
+        <div class="chapter-text">
+          <p>Ayer por la mañana, Mateo se despertó muy temprano porque tenía mucho trabajo. Se duchó, se cepilló los dientes y se puso una camisa blanca, un pantalón negro y una chaqueta. Estaba cansado, pero también muy emocionado: había quedado con su amiga Camila para visitar una casa antigua que estaba en venta.</p>
+          <p>La casa tenía dos plantas, un jardín enorme y un garaje. En la planta baja había una cocina, un comedor, un salón y un despacho. El salón era muy elegante: había un sofá de color vino, dos sillones, una mesa pequeña y varios cuadros. En el comedor, los platos, los vasos, los cuchillos y los tenedores ya estaban sobre la mesa.</p>
+          <p class="dialogue">—¿Hay alguien viviendo aquí? —preguntó Camila.</p>
+          <p class="dialogue">—No. La casa está vacía desde hace muchos años —respondió el agente inmobiliario.</p>
+          <p>Mateo era curioso y bastante valiente, pero Camila estaba nerviosa. Mientras recorrían el pasillo, escucharon un ruido que venía de una habitación cerrada. Camila agarró a Mateo del brazo.</p>
+          <p class="dialogue">—No me gusta mucho este lugar —dijo ella—. Es muy oscuro y hace mucho frío.</p>
+          <p>Cuando Mateo abrió la puerta, encontraron a un hombre sentado delante de un escritorio. Era alto, llevaba un sombrero gris y tenía una pequeña herida en la mano. Sobre la mesa había una taza de café, un sobre, una llave y la fotografía de un coche azul.</p>
+          <p class="dialogue">—¿Quién es usted? —preguntó Mateo.</p>
+          <p>El hombre no respondió. Se levantó rápidamente, guardó el sobre en el bolsillo y salió por una ventana. Camila y Mateo corrieron hasta el garaje, pero el desconocido ya estaba dentro del coche. El vehículo tenía un neumático dañado y el parabrisas estaba roto; sin embargo, consiguió escapar.</p>
+        </div>
+      </article>
+
+      <article class="chapter" data-chapter>
+        <div class="chapter-label"><span>HOY</span><button class="listen-part" type="button" aria-label="Escuchar Hoy">🔊 Escuchar</button></div>
+        <div class="chapter-text">
+          <p>Hoy, Mateo y Camila están en una comisaría. Los dos están preocupados y tienen muchas preguntas. La policía sabe que el hombre es peligroso, pero todavía no tiene mucha información sobre él. En la fotografía aparece la matrícula del coche y, detrás de ella, hay un mensaje:</p>
+          <blockquote>«Mañana quedamos a las once en el restaurante de la plaza. Lleva la llave y no confíes en nadie».</blockquote>
+        </div>
+      </article>
+
+      <article class="chapter" data-chapter>
+        <div class="chapter-label"><span>MAÑANA</span><button class="listen-part" type="button" aria-label="Escuchar Mañana">🔊 Escuchar</button></div>
+        <div class="chapter-text">
+          <p>Mañana, Mateo y Camila estarán en el restaurante. Se sentarán cerca de la ventana y fingirán que están cenando. Sobre la mesa habrá dos copas, una botella y una servilleta roja. Mateo tendrá la llave en el bolsillo y Camila llevará una cámara escondida en su bolso.</p>
+          <p>No saben quién llegará a la reunión ni qué habrá dentro del sobre. Tal vez el desconocido será un agente secreto. Tal vez el agente inmobiliario tendrá algo que ver con el misterio. Lo único seguro es que mañana tendrán muchas respuestas… o muchos más problemas.</p>
+        </div>
+      </article>
+    </section>
+
+    <section id="preguntas" class="questions">
+      <div class="section-heading light">
+        <span class="section-number">03</span>
+        <div><h2>Comprensión lectora</h2><p>Responde en español con frases completas.</p></div>
+      </div>
+
+      <form id="lesson-form" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="1027624e-f586-43ab-bb7e-22c0f93222a0">
+        <input type="hidden" name="subject" value="YV Español — El huésped de la habitación cerrada">
+        <input type="hidden" name="from_name" value="YV Español">
+        <div class="question-list">
+          <label><span>1</span>¿Por qué Mateo se despertó muy temprano?<textarea name="pregunta_1" required></textarea></label>
+          <label><span>2</span>¿Cómo se sentían Mateo y Camila antes de entrar en la habitación cerrada?<textarea name="pregunta_2" required></textarea></label>
+          <label><span>3</span>¿Qué habitaciones y espacios había en la casa?<textarea name="pregunta_3" required></textarea></label>
+          <label><span>4</span>¿Qué objetos encontraron sobre el escritorio?<textarea name="pregunta_4" required></textarea></label>
+          <label><span>5</span>¿Cómo era el hombre que estaba dentro de la habitación?<textarea name="pregunta_5" required></textarea></label>
+          <label><span>6</span>¿En qué estado estaba el coche que utilizó para escapar?<textarea name="pregunta_6" required></textarea></label>
+          <label><span>7</span>¿Qué información aparece en la fotografía y en el mensaje?<textarea name="pregunta_7" required></textarea></label>
+          <label><span>8</span>¿Qué harán Mateo y Camila mañana en el restaurante?<textarea name="pregunta_8" required></textarea></label>
+          <label><span>9</span>¿Qué objetos habrá sobre la mesa del restaurante?<textarea name="pregunta_9" required></textarea></label>
+          <label><span>10</span>En tu opinión, ¿quién es realmente el desconocido y qué puede haber dentro del sobre?<textarea name="pregunta_10" required></textarea></label>
+        </div>
+        <button class="submit" type="submit">Enviar respuestas</button>
+        <p id="form-status" class="form-status" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer><img src="assets/logobranca.png" alt="YV Español"><p>From understanding to speaking.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
